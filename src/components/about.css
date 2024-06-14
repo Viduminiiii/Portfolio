@@ -1,0 +1,25 @@
+.container{
+    flex: 1;
+    /* margin-top: 20rem; */
+    margin: 15rem 10rem;
+    flex-direction: row;
+}
+
+.my-pic{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    filter: brightness(0.9); 
+}
+
+.text{
+    flex-wrap: wrap;
+}
+
+.text h2{
+    font-size: 3rem;
+}
+
+.text p{
+    font-size: 2rem;
+}
