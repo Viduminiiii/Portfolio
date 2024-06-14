@@ -1,25 +1,39 @@
-.container{
-    flex: 1;
-    /* margin-top: 20rem; */
-    margin: 15rem 10rem;
-    flex-direction: row;
+.container {
+  flex: 1;
+  /* margin-top: 20rem; */
+  margin: 5rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5rem;
 }
 
-.my-pic{
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    filter: brightness(0.9); 
+.my-pic {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  filter: brightness(0.9);
 }
 
-.text{
-    flex-wrap: wrap;
+.text {
+  flex-wrap: wrap;
 }
 
-.text h2{
-    font-size: 3rem;
+.text h2 {
+  font-size: 3rem;
 }
 
-.text p{
-    font-size: 2rem;
+.text p {
+  font-size: 2rem;
+}
+
+.text .button {
+  background-color: #ffde95;
+  height: 4rem;
+  width: 15rem;
+  border-radius: 4rem;
+  cursor: pointer; 
+  font-size: 1.5rem;
+  font-weight: bold;
 }

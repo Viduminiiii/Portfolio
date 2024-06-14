@@ -4,6 +4,10 @@ import "../components/about.css";
 import pic from "../Pics/Pic.jpg";
 
 function About() {
+  const SendMail = ()=>{
+    alert('Send mail!')
+  }
+  
   return (
     <div className="App">
       <NavBar />
@@ -14,6 +18,7 @@ function About() {
         <div className="text">
           <h2>Hi, I'm Vidumini</h2>
           <p>I am an ambitious undergraduate student pursuing a BEng (Hons) Software Engineering at the University of Westminster, Informatic Institute of Technology (IIT).</p>
+          <button className="button" onClick={SendMail}>Contact me</button>
         </div>
       </div>
     </div>
