@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./navbar";
-import "../components/about.css";
+import "../components/home.css";
 import pic from "../Pics/Pic.jpg";
 
-function About() {
+function Home() {
   const SendMail = ()=>{
     alert('Send mail!')
   }
@@ -25,4 +25,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
