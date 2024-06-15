@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* box-shadow: 0 1.6px 8px rgba(0, 0, 0, .2); */
+  box-shadow: 0 1.6px 8px rgba(0, 0, 0, .2);
   z-index: 1000;
   width: 100%;
 }
@@ -36,9 +36,9 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
-  margin: 1rem 5rem;
+  margin: 0 5rem;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   transition: color 0.3s, background-color 0.3s;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .navbar {
     display: none;
     flex-direction: column;
