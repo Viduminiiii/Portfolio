@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "./navbar";
 import "../components/home.css";
 import pic from "../Pics/Pic.jpg";
+import Button from '@mui/material/Button';
 
 function Home() {
   const SendMail = ()=>{
@@ -10,7 +10,6 @@ function Home() {
   
   return (
     <div className="App">
-      <NavBar />
       <div className="container">
         <div>
           <img src={pic} alt="Vidumini Dayananda" className="my-pic"></img>
@@ -18,7 +17,7 @@ function Home() {
         <div className="text">
           <h2>Hi, I'm Vidumini</h2>
           <p>I am an ambitious undergraduate student pursuing a BEng (Hons) Software Engineering at the University of Westminster, Informatic Institute of Technology (IIT).</p>
-          <button className="button" onClick={SendMail}>Contact me</button>
+          <Button variant ="contained" className="button" onClick={SendMail}>Contact me</Button>
         </div>
       </div>
     </div>
