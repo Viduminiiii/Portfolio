@@ -16,6 +16,8 @@
   width: 100%;
   max-width: 80rem;
   padding: 2rem;
+  margin-left: 3rem;
+
   /* background-color: #58A399; */
 }
 
@@ -36,7 +38,7 @@
   margin-left: 1rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .details .text p {
@@ -53,7 +55,7 @@
 .details .container-2:hover {
   color: #fff;
   /* background-color: #ffde95; */
-  background: linear-gradient(135deg, #ffde95 10%, #1c82ad);
+  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
   border-radius: 2rem;
   transform: scale(1.02);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

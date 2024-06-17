@@ -14,6 +14,7 @@
   border-radius: 2rem;
   width: 100%;
   padding: 2rem;
+  margin-left: 3rem;
 }
 
 .details-1 #topic {
@@ -43,7 +44,8 @@
 .details-1 .row-1 .img-container:hover {
   color: #fff;
   /* background-color: #ffde95; */
-  background: linear-gradient(135deg, #ffde95 10%, #1c82ad);
+  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  opacity: 0.8;
   border-radius: 2rem;
   transform: scale(1.02);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

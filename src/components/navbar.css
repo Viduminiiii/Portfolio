@@ -1,6 +1,6 @@
 body {
-  background-color: #e2f4c5;
-  opacity: 0.8;
+  background: linear-gradient(135deg, #ffde95 10%, #1c82ad);
+  /* opacity: 0.8; */
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
