@@ -1,6 +1,5 @@
 .container {
   flex: 1;
-  /* margin-top: 20rem; */
   margin: 5rem 10rem;
   display: flex;
   align-items: center;
@@ -30,6 +29,7 @@
 
 .text .button {
   background-color: #ffde95;
+  color: black;
   height: 4rem;
   width: 15rem;
   border-radius: 4rem;
@@ -37,3 +37,5 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+

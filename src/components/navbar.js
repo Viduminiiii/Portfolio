@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 function NavBar() {
@@ -13,10 +14,12 @@ function NavBar() {
       <header className="App-header">
         {/* <div className="logo">Logo</div> */}
         <nav className={`navbar ${menuOpen ? "show" : ""}`}>
-          <a href="#">About</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
           <a href="#">Skills</a>
           <a href="#">Projects</a>
           <a href="#">Contact</a>
+         
         </nav>
         <div className="menu-icon" onClick={toggleMenu}>
           &#9776;
