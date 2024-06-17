@@ -16,7 +16,7 @@ function NavBar() {
         <nav className={`navbar ${menuOpen ? "show" : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-          <a href="#">Skills</a>
+          <a href="/skills">Skills</a>
           <a href="#">Projects</a>
           <a href="#">Contact</a>
          
