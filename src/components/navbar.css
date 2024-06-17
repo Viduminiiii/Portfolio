@@ -45,11 +45,13 @@ body {
 .navbar a:hover {
   color: #fff;
   background-color: #1C82AD;
+  border-radius: 1rem ;
 }
 
 .navbar .active {
   color: #fff;
   background-color: #13005A;
+  border-radius: 1rem ;
 }
 
 .menu-icon {
