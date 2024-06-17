@@ -16,7 +16,7 @@
   width: 100%;
   max-width: 80rem;
   padding: 2rem;
-  background-color: #1c82ad;
+  /* background-color: #58A399; */
 }
 
 .details #topic {
@@ -41,18 +41,18 @@
 
 .details .text p {
   font-size: 1.5rem;
-  margin-left: 4rem;
+  margin-left: 6rem;
   margin-top: 0;
 }
 
 .details .container-2 {
   padding: 1rem;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 
 .details .container-2:hover {
   color: #fff;
-  background-color: #ffde95;
+  /* background-color: #ffde95; */
   background: linear-gradient(135deg, #ffde95 10%, #1c82ad);
   border-radius: 2rem;
   transform: scale(1.02);
