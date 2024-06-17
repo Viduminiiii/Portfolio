@@ -18,7 +18,7 @@ function NavBar() {
         <Link to="/about">About</Link>
           <a href="/skills">Skills</a>
           <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
          
         </nav>
         <div className="menu-icon" onClick={toggleMenu}>
