@@ -14,6 +14,7 @@
   border-radius: 2rem;
   width: 100%;
   padding: 2rem;
+  margin-left: 3rem;
 }
 
 .details-1 #topic {
@@ -29,9 +30,6 @@
   flex-direction: row;
   margin-left: 1rem;
   padding: 1rem;
-  /* flex-wrap: wrap; */
-  /* border-style: solid; */
-  /* width: 100%; */
 }
 
 .details-1 .row-1 .img-container {
@@ -44,13 +42,14 @@
 }
 
 .details-1 .row-1 .img-container:hover {
-    color: #fff;
-    /* background-color: #ffde95; */
-    background: linear-gradient(135deg, #ffde95 10%, #1c82ad);
-    border-radius: 2rem;
-    transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+  color: #fff;
+  /* background-color: #ffde95; */
+  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  opacity: 0.8;
+  border-radius: 2rem;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 .details-1 .row-1 .img-container .img {
   height: 120px;
@@ -74,8 +73,8 @@
 }
 
 .details-1 .row-1 .img-container #id-react {
-    margin-left: 2.5rem;
-  }
+  margin-left: 2.5rem;
+}
 
 .details-1 .row-1 .img-container #id-java {
   margin-left: 2.5rem;
@@ -96,3 +95,23 @@
 .details-1 .row-1 .img-container #id-figma {
   margin-left: 2.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .container {
+      margin: 2rem;
+    }
+  
+    .details-1 .row-1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .details-1 .row-1 .img-container {
+      margin: 1rem 0;
+    }
+  
+    .details-1 .row-1 .img-container p {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
