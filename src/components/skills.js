@@ -17,7 +17,7 @@ function Skills() {
     <div className="App">
       <div className="container-skills">
         <div className="details-1">
-          <h1 id="topic">Skills</h1>
+          <h1 id="topic">Technical Skills</h1>
           <div className="row-1">
             <div className="img-container">
               <img src={html} alt="HTML" className="img-1"></img>
