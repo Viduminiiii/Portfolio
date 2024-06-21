@@ -10,7 +10,7 @@ function Home() {
   
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-1">
         <div>
           <img src={pic} alt="Vidumini Dayananda" className="my-pic"></img>
         </div>

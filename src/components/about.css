@@ -1,6 +1,13 @@
+body {
+  background-color:#D8EFD3 ;
+  opacity: 0.8;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container {
   flex: 1;
-  margin: 5rem 10rem;
+  margin: 2.5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,16 +23,15 @@
   width: 100%;
   max-width: 80rem;
   padding: 2rem;
-  margin-left: 3rem;
-
-  /* background-color: #58A399; */
+  /* margin-left: 3rem; */
+  margin: 0.1rem 0 0 3rem;
 }
 
 .details #topic {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
-  padding: 1rem 0;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  padding: 0.5px;
+  /* margin-bottom: 1rem; */
   margin-top: 0;
 }
 
@@ -38,11 +44,11 @@
   margin-left: 1rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .details .text p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-left: 6rem;
   margin-top: 0;
 }
@@ -50,11 +56,23 @@
 .details .container-2 {
   padding: 1rem;
   transition: transform 0.3s;
+  margin-left: 1rem;
+}
+
+.details .container-3 {
+  padding: 1rem;
+  transition: transform 0.3s;
+  margin-left: 4rem;
+}
+
+.details .container-4 {
+  padding: 1rem;
+  transition: transform 0.3s;
+  margin-left: 8rem;
 }
 
 .details .container-2:hover {
   color: #fff;
-  /* background-color: #ffde95; */
   background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
   border-radius: 2rem;
   transform: scale(1.02);
@@ -66,6 +84,40 @@
 }
 
 .details .container-2:hover svg {
+  transform: scale(1.1);
+  fill: #ff4081; /* Adjust this color as needed */
+}
+
+.details .container-3:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  border-radius: 2rem;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.details .container-3 svg {
+  transition: transform 0.3s, fill 0.3s;
+}
+
+.details .container-3:hover svg {
+  transform: scale(1.1);
+  fill: #ff4081; /* Adjust this color as needed */
+}
+
+.details .container-4:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  border-radius: 2rem;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.details .container-4 svg {
+  transition: transform 0.3s, fill 0.3s;
+}
+
+.details .container-4:hover svg {
   transform: scale(1.1);
   fill: #ff4081; /* Adjust this color as needed */
 }
