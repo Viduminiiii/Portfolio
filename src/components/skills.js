@@ -15,9 +15,9 @@ import figma from "../Pics/figma.png"
 function Skills() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-skills">
         <div className="details-1">
-          <h1 id="topic">Skills</h1>
+          <h1 id="topic">Technical Skills</h1>
           <div className="row-1">
             <div className="img-container">
               <img src={html} alt="HTML" className="img-1"></img>
@@ -25,7 +25,7 @@ function Skills() {
             </div>
             <div className="img-container">
               <img src={css} alt="CSS" className="img"></img>
-              <p>Cascading Style Sheets</p>
+              <p id="id-css">CSS</p>
             </div>
             <div className="img-container">
               <img src={javascript} alt="JavaScript" className="img"></img>

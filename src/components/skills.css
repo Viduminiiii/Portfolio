@@ -1,6 +1,6 @@
-.container {
+.container-skills {
   flex: 1;
-  margin: 5rem 10rem;
+  margin: 2.5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,28 +8,30 @@
 
 .details-1 {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   width: 100%;
-  padding: 2rem;
-  margin-left: 3rem;
+  padding: 1rem;
+  margin-left: 1rem;
 }
 
 .details-1 #topic {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5rem;
-  padding: 1rem 0;
-  margin-bottom: 1rem;
-  margin-top: 0;
+  font-size: 2rem;
+  /* padding: 0.5rem; */
+  /* margin-bottom: 1rem; */
+  /* margin-top: 0.5rem; */
+  margin: 1rem 45rem 1rem 0;
 }
 
 .details-1 .row-1 {
   display: flex;
   flex-direction: row;
-  margin-left: 1rem;
-  padding: 1rem;
+  margin: 0 1rem;
+  /* padding: 1rem; */
 }
 
 .details-1 .row-1 .img-container {
@@ -52,48 +54,40 @@
 }
 
 .details-1 .row-1 .img-container .img {
-  height: 120px;
-  width: 120px;
+  height: 85px;
+  width: 85px;
 }
 
 .details-1 .row-1 .img-container p {
-  margin-left: 1.3rem;
+  /* margin-left: 1.3rem; */
   font-size: 1.1rem;
 }
 
 .details-1 .row-1 .img-container .img-1 {
-  width: 120px;
-  height: 100px;
-  margin-top: 0.7rem;
+  width: 90px;
+  height: 70px;
+  margin-top: 0.5rem;
 }
 
 .details-1 .row-1 .img-container #id-html {
   margin-top: 1.7rem;
-  margin-left: 2.5rem;
+  margin-left: 1.2rem;
 }
 
 .details-1 .row-1 .img-container #id-react {
-  margin-left: 2.5rem;
+  margin-left: 1.2rem;
 }
 
-.details-1 .row-1 .img-container #id-java {
-  margin-left: 2.5rem;
+.details-1 .row-1 .img-container #id-css,#id-java,#id-php {
+  margin-left: 1.5rem;
 }
 
-.details-1 .row-1 .img-container #id-python {
-  margin-left: 2rem;
+.details-1 .row-1 .img-container #id-python, #id-figma {
+  margin-left: 1rem;
 }
 
 .details-1 .row-1 .img-container #id-sql {
-  margin-left: 2.5rem;
-}
-
-.details-1 .row-1 .img-container #id-php {
-  margin-left: 2.5rem;
-}
-
-.details-1 .row-1 .img-container #id-figma {
-  margin-left: 2.5rem;
+  margin-left: 1.7rem;
 }
 
 @media screen and (max-width: 1000px) {

@@ -9,7 +9,7 @@ function About() {
     <div className="App">
       <div className="container">
         <div className="details">
-          <h1 id="topic">About</h1>
+          <h1 id="topic">About Me</h1>
           <div className="container-2">
             <div className="info-1">
               <InterestsSharpIcon style={{ fontSize: "3rem" }} />
@@ -24,7 +24,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div className="container-2">
+          <div className="container-3">
             <div className="info-1">
               <LanguageSharpIcon style={{ fontSize: "3rem" }} />
               <h1>Fluent in Multiple Programming Languages</h1>
@@ -36,7 +36,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div className="container-2">
+          <div className="container-4">
             <div className="info-1">
               <GroupsSharpIcon style={{ fontSize: "3rem" }} />
               <h1>Team-Oriented and Challenge-Driven</h1>
