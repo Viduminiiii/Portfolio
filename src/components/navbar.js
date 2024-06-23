@@ -14,12 +14,11 @@ function NavBar() {
       <header className="App-header">
         {/* <div className="logo">Logo</div> */}
         <nav className={`navbar ${menuOpen ? "show" : ""}`}>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-          <a href="/skills">Skills</a>
-          <a href="projects">Projects</a>
-          <a href="/contact">Contact</a>
-         
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
         <div className="menu-icon" onClick={toggleMenu}>
           &#9776;

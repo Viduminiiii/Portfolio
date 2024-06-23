@@ -1,9 +1,9 @@
-body {
+/* body {
   background-color:#D8EFD3 ;
   opacity: 0.8;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 .container {
   flex: 1;
@@ -73,7 +73,7 @@ body {
 
 .details .container-2:hover {
   color: #fff;
-  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  background: linear-gradient(135deg, #C80036 10%, #FFF5E1);
   border-radius: 2rem;
   transform: scale(1.02);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -85,12 +85,12 @@ body {
 
 .details .container-2:hover svg {
   transform: scale(1.1);
-  fill: #ff4081; /* Adjust this color as needed */
+  fill: #0C1844;
 }
 
 .details .container-3:hover {
   color: #fff;
-  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  background: linear-gradient(135deg, #C80036 10%, #FFF5E1);
   border-radius: 2rem;
   transform: scale(1.02);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -102,12 +102,12 @@ body {
 
 .details .container-3:hover svg {
   transform: scale(1.1);
-  fill: #ff4081; /* Adjust this color as needed */
+  fill: #0C1844;
 }
 
 .details .container-4:hover {
   color: #fff;
-  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  background: linear-gradient(135deg, #C80036 10%, #FFF5E1);
   border-radius: 2rem;
   transform: scale(1.02);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -119,5 +119,5 @@ body {
 
 .details .container-4:hover svg {
   transform: scale(1.1);
-  fill: #ff4081; /* Adjust this color as needed */
+  fill: #0C1844;
 }

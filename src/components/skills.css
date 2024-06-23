@@ -45,8 +45,7 @@
 
 .details-1 .row-1 .img-container:hover {
   color: #fff;
-  /* background-color: #ffde95; */
-  background: linear-gradient(135deg, #5C2FC2 10%, #83B4FF);
+  background: linear-gradient(135deg, #C80036 10%, #FFF5E1);
   opacity: 0.8;
   border-radius: 2rem;
   transform: scale(1.02);

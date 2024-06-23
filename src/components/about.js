@@ -17,10 +17,9 @@ function About() {
             </div>
             <div className="text">
               <p>
-                An ambitious undergraduate computer science student with a
-                strong background in software development, programming, and
-                algorithms, eager to apply their expertise in practical
-                projects.
+                An ambitious undergraduate software engineering student with a
+                strong passion in software development and programming eager to
+                apply their expertise in practical projects.
               </p>
             </div>
           </div>

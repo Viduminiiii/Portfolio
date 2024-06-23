@@ -34,7 +34,7 @@
 }
 
 .text .button {
-  background-color: #ffde95;
+  background-color: #FF6969;
   color: black;
   height: 4rem;
   width: 15rem;
@@ -42,6 +42,11 @@
   cursor: pointer; 
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.text .button:hover{
+  background-color: #0C1844;
+  color: white;
 }
 
 
