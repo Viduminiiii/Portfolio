@@ -53,6 +53,7 @@ body, html {
 .text .button {
   background-color: #FF6969;
   color: black;
+  filter: drop-shadow(3px 3px 3px black);
   height: 4rem;
   width: 15rem;
   border-radius: 4rem;
