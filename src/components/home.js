@@ -17,7 +17,7 @@ function Home() {
         <div className="text">
           <h2>Hi, I'm Vidumini</h2>
           <p>I am an ambitious undergraduate student pursuing a BEng (Hons) Software Engineering at the University of Westminster, Informatic Institute of Technology (IIT).</p>
-          <Button variant ="contained" className="button" onClick={SendMail}>Contact me</Button>
+          <Button variant ="contained" className="button" onClick={SendMail}>Download CV</Button>
         </div>
       </div>
     </div>
