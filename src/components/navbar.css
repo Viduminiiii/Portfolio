@@ -20,7 +20,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 1.6px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 1.6px 8px rgba(0, 0, 0, 0.2); */
   z-index: 1000;
   width: 100%;
 }
@@ -30,6 +30,8 @@ body, html {
   flex: 1;
   justify-content: flex-end;
   flex-wrap: wrap;
+  position: sticky;
+  backdrop-filter: blur(45px);
 }
 
 .navbar a {
@@ -42,7 +44,7 @@ body, html {
 }
 
 .navbar a:hover {
-  background-color: #FF6969;
+  background-color: #0C1844;
   color: #fff;
   border-radius: 0.5rem;
   transform: scale(1.02);

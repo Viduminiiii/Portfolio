@@ -12,7 +12,9 @@ function NavBar() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <div className="logo">Logo</div> */}
+        {/* <div className="logo">
+          <h3 style={{fontSize:"1.5rem", margin:"1rem"}}>Vidumini</h3>
+        </div> */}
         <nav className={`navbar ${menuOpen ? "show" : ""}`}>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
