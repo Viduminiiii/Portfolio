@@ -1,0 +1,77 @@
+[
+    {
+      "project": "PetMate",
+      "images": [
+        { "src": "petmateapp1", "alt": "Start up page" },
+        { "src": "petmateapp2", "alt": "Sign up category page" },
+        { "src": "petmateapp3", "alt": "Login page" }
+      ],
+      "description": "Petmate is a pet management mobile app made with React Native, JavaScript and Node JS",
+      "skills": [
+        { "src": "reactNative", "alt": "React Native" },
+        { "src": "nodejs", "alt": "Node JS" },
+        { "src": "expressjs", "alt": "Express JS" },
+        { "src": "mongodb", "alt": "Mongo DB" },
+        { "src": "git", "alt": "Git hub" }
+      ],
+      "learnMoreIcon": { "style": { "fontSize": "2rem", "margin": "0.4rem" }, "id": "icon" }
+    },
+    {
+      "project": "PetMate Website",
+      "images": [
+        { "src": "petmatewebsite", "alt": "PetMate website" }
+      ],
+      "description": "Petmate website is an advertising website made with HTML and CSS",
+      "skills": [
+        { "src": "html", "alt": "HTML" },
+        { "src": "css", "alt": "CSS" }
+      ],
+      "learnMoreIcon": { "style": { "fontSize": "2rem", "margin": "0.4rem" }, "id": "icon" }
+    },
+    {
+      "project": "Shopping Management System",
+      "images": [
+        { "src": "shoppingsys", "alt": "Shopping management system" }
+      ],
+      "description": "Shopping Management System made with Java and Java Swing",
+      "skills": [
+        { "src": "java", "alt": "Java" }
+      ],
+      "learnMoreIcon": { "style": { "fontSize": "2rem", "margin": "0.4rem" }, "id": "icon" }
+    },
+    {
+      "project": "Theatre Ticket Booking System",
+      "images": [
+        { "src": "theatrebooking", "alt": "Theatre booking system" }
+      ],
+      "description": "Theatre Ticket Booking System made with Java using OOP concepts",
+      "skills": [
+        { "src": "java", "alt": "Java" }
+      ],
+      "learnMoreIcon": { "style": { "fontSize": "2rem", "margin": "0.4rem" }, "id": "icon" }
+    },
+    {
+      "project": "SportBuzz",
+      "images": [
+        { "src": "sportbuzz", "alt": "Shopping management system" }
+      ],
+      "description": "Sports website made with HTML, CSS and JavaScript",
+      "skills": [
+        { "src": "html", "alt": "HTML" },
+        { "src": "css", "alt": "CSS" },
+        { "src": "javascript", "alt": "JavaScript" }
+      ],
+      "learnMoreIcon": { "style": { "fontSize": "2rem", "margin": "0.4rem" }, "id": "icon" }
+    },
+    {
+      "project": "University Grading System",
+      "images": [
+        { "src": "universitysys", "alt": "University Grading System" }
+      ],
+      "description": "University Grading System made with Python",
+      "skills": [
+        { "src": "python", "alt": "Python" }
+      ],
+      "learnMoreIcon": { "style": { "fontSize": "2rem", "margin": "0.4rem" }, "id": "icon" }
+    }
+  ]
