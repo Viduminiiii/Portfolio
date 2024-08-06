@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./contact.css";
+import contact from "../Pics/contact2.png";
 
 const Contact = () => {
   return (
@@ -13,43 +14,58 @@ const Contact = () => {
             <Box
               component="form"
               sx={{
-                "& > :not(style)": { m: 1, width: "40ch" },
+                "& > :not(style)": { m: 1, width: "100%" },
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
               }}
               noValidate
               autoComplete="off"
             >
-              <h3 className="top-text">I'm always available for a chat</h3>
+              <h3
+                className="top-text"
+                style={{ color: "#C80036", fontSize: "1.5rem" }}
+              >
+                Get in Touch!
+              </h3>
               <p>Drop me an email by filling out this form.</p>
               <TextField
-                id="standard-basic"
+                required
+                id="outlined-required"
                 label="Name"
-                variant="standard"
                 fullWidth
+                // defaultValue="Hello World"
               />
               <br />
-              <br />
-              {/* <Typography variant="h8">Email Address</Typography> */}
               <TextField
-                id="standard-basic"
+                required
+                id="outlined-required"
                 label="Email Address"
-                variant="standard"
                 fullWidth
+                // defaultValue="Hello World"
               />
               <br />
-              <br />
-              {/* <Typography variant="h8">Message</Typography> */}
               <TextField
-                id="standard-multiline-flexible"
+                id="outlined-multiline-flexible"
                 label="Message"
                 multiline
-                maxRows={20}
-                variant="standard"
+                maxRows={4}
                 fullWidth
               />
-              <Button variant="outlined" id="send-button">
-                Send
-              </Button>
+              <div className="button-container">
+                <Button variant="outlined" id="send-button">
+                  Send
+                </Button>
+              </div>
             </Box>
+          </div>
+          <div style={{display:"flex", justifyContent:"center", alignContent:"center"}}>
+            <img
+              src={contact}
+              alt="Contact page"
+              className="contact-img"
+            ></img>
           </div>
         </div>
       </div>

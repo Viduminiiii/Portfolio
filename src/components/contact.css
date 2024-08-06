@@ -1,56 +1,119 @@
 /* Contact.css */
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin: 1.5rem 0;
 }
 
 .container-contact {
-  background-color: #D8EFD3;
-  width: 50%;
+  background-color: #d8efd3;
+  width: 90%;
+  max-width: 1200px;
   padding: 20px;
-  border-radius: 3rem;
+  border-radius: 90px;
   display: flex;
   justify-content: center;
-  margin: 20px;
-  /* flex-direction: row; */
+  margin: 20px auto; 
+  filter: drop-shadow(3px 3px 3px #ff6969);
+  flex-direction: column; 
+  gap: 2rem; 
 }
 
 .contact-details {
   margin: 20px;
+  width: 100%; 
 }
 
-.top-text{
+.top-text {
   font-weight: 700;
 }
 
 .text-field-long {
-  width: 100%; /* You can set this to any width you prefer, e.g., 400px, 50%, etc. */
+  width: 100%; 
 }
 
-/* #standard-basic{
-  margin-bottom: 10px;
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#standard-multiline-flexible{
-  margin-bottom: 10px;
-} */
-
-#send-button{
- background-color: #FF6969;
+/* Send button */
+#send-button {
+  background-color: #ff6969;
   color: black;
-  /* height: 4rem; */
-  width: 5rem;
+  width: 100%; 
+  max-width: 18rem; 
+  height: 2.5rem;
   border: none;
   border-radius: 4rem;
-  cursor: pointer; 
-  /* font-size: 1.5rem; */
-  font-weight: bold;
   margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  filter: drop-shadow(3px 3px 3px black);
 }
 
-#send-button:hover{
-  background-color: #0C1844;
+#send-button:hover {
+  background-color: #0c1844;
   color: white;
+}
+
+/* Contact image */
+.contact-img {
+  height: 100%;
+  width: 100%;
+  max-height: 32rem; /* Max height for larger screens */
+  max-width: 32rem; /* Max width for larger screens */
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+/* Media queries for responsiveness */
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  .container-contact {
+    flex-direction: column; 
+    width: 90%;
+  }
+
+  .contact-img {
+    height: 24rem;
+    width: 24rem; 
+  }
+
+  #send-button {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container-contact {
+    flex-direction: column;
+    width: 85%;
+  }
+
+  .contact-img {
+    height: 28rem; /* Adjust height */
+    width: 28rem; /* Adjust width */
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 901px) {
+  .container-contact {
+    flex-direction: row; 
+    width: 80%;
+  }
+
+  .contact-img {
+    height: 32rem; 
+    width: 32rem; 
+  }
+
+  .text-field-long {
+    width: 20%; 
+  }
 }
