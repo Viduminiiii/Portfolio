@@ -1,12 +1,12 @@
 import React from "react";
-import "../components/home.css";
-import pic from "../Pics/Pic.jpg";
+import "../home/home.css";
+import pic from "../../Pics/Pic.jpg";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import git from "../Pics/github.png";
-import linkedin from "../Pics/linkedin.png";
-import gmail from "../Pics/gmail.png";
-import cv from "../Data/ViduminiDayananda.pdf";
+import git from "../../Pics/github.png";
+import linkedin from "../../Pics/linkedin.png";
+import gmail from "../../Pics/gmail.png";
+import cv from "../../Data/ViduminiDayananda.pdf";
 
 function Home() {
   return (
@@ -38,7 +38,7 @@ function Home() {
           <h2>Hi, I'm Vidumini</h2>
           <p>
             I am an ambitious undergraduate student pursuing a BEng (Hons)
-            Software Engineering at the University of Westminster, Informatic
+            Software Engineering at the University of Westminster, Informatics
             Institute of Technology (IIT).
           </p>
           <Button variant="contained" className="button">
