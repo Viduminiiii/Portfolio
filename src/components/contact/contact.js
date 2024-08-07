@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./contact.css";
-import contact from "../Pics/contact2.png";
+import contact from "../../Pics/contact2.png";
 
 const Contact = () => {
   return (

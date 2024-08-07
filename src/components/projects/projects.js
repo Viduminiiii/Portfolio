@@ -1,26 +1,26 @@
 import React from "react";
 import "./projects.css";
 import MoreHorizSharpIcon from "@mui/icons-material/MoreHorizSharp";
-import petmateapp1 from "../Pics/Projects/petmate-1.png";
-import petmateapp2 from "../Pics/Projects/petmate-2.png";
-import petmateapp3 from "../Pics/Projects/petmate-3.png";
-import petmatewebsite from "../Pics/Projects/petmate-website.png";
-import portfolio from "../Pics/Projects/portfolio.png";
-import shoppingsys from "../Pics/Projects/shppoingmanagement.png";
-import theatrebooking from "../Pics/Projects/theatre-booking.png";
-import sportbuzz from "../Pics/Projects/sportbuzz.png";
-import universitysys from "../Pics/Projects/university-grading.png"
-import html from "../Pics/skills/html.png";
-import css from "../Pics/skills/css.png";
-import javascript from "../Pics/skills/javascript.png";
-import reactNative from "../Pics/skills/React.png";
-import react from "../Pics/skills/React.png"
-import nodejs from "../Pics/skills/nodejs.png";
-import java from "../Pics/skills/java.png";
-import python from "../Pics/skills/python.png";
-import expressjs from "../Pics/skills/expressjs.png";
-import mongodb from "../Pics/Icons/mongodb-icon.png";
-import git from "../Pics/github.png";
+import petmateapp1 from "../../Pics/Projects/petmate-1.png";
+import petmateapp2 from "../../Pics/Projects/petmate-2.png";
+import petmateapp3 from "../../Pics/Projects/petmate-3.png";
+import petmatewebsite from "../../Pics/Projects/petmate-website.png";
+import portfolio from "../../Pics/Projects/portfolio.png";
+import shoppingsys from "../../Pics/Projects/shppoingmanagement.png";
+import theatrebooking from "../../Pics/Projects/theatre-booking.png";
+import sportbuzz from "../../Pics/Projects/sportbuzz.png";
+import universitysys from "../../Pics/Projects/university-grading.png"
+import html from "../../Pics/skills/html.png";
+import css from "../../Pics/skills/css.png";
+import javascript from "../../Pics/skills/javascript.png";
+import reactNative from "../../Pics/skills/React.png";
+import react from "../../Pics/skills/React.png"
+import nodejs from "../../Pics/skills/nodejs.png";
+import java from "../../Pics/skills/java.png";
+import python from "../../Pics/skills/python.png";
+import expressjs from "../../Pics/skills/expressjs.png";
+import mongodb from "../../Pics/Icons/mongodb-icon.png";
+import git from "../../Pics/github.png";
 
 function Projects() {
   return (

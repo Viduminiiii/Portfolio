@@ -1,8 +1,8 @@
 import React from "react";
-import "./about.css";
-import "./skills.css";
-import About from "./about";
-import Skills from "./skills";
+import "../about/about.css";
+import "../skills/skills.css";
+import About from "../about/about";
+import Skills from "../skills/skills";
 
 function AboutMe() {
   return (

@@ -1,16 +1,16 @@
 import React from "react";
 import "./skills.css";
-import html from "../Pics/skills/html.png"
-import css from "../Pics/skills/css.png"
-import javascript from "../Pics/skills/javascript.png"
-import reactNative from "../Pics/skills/React.png";
-import nodejs from "../Pics/skills/nodejs.png"
-import java from "../Pics/skills/java.png"
-import python from "../Pics/skills/python.png"
-import sql from "../Pics/skills/mysql.png"
-import php from "../Pics/skills/php.png"
-import mongodb from "../Pics/skills/mongodb.png"
-import figma from "../Pics/skills/figma.png"
+import html from "../../Pics/skills/html.png"
+import css from "../../Pics/skills/css.png"
+import javascript from "../../Pics/skills/javascript.png"
+import reactNative from "../../Pics/skills/React.png";
+import nodejs from "../../Pics/skills/nodejs.png"
+import java from "../../Pics/skills/java.png"
+import python from "../../Pics/skills/python.png"
+import sql from "../../Pics/skills/mysql.png"
+import php from "../../Pics/skills/php.png"
+import mongodb from "../../Pics/skills/mongodb.png"
+import figma from "../../Pics/skills/figma.png"
 
 function Skills() {
   return (

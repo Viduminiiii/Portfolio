@@ -1,12 +1,12 @@
 import React from "react";
-import "../components/home.css";
-import pic from "../Pics/Pic.jpg";
+import "../home/home.css";
+import pic from "../../Pics/Pic.jpg";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import git from "../Pics/github.png";
-import linkedin from "../Pics/linkedin.png";
-import gmail from "../Pics/gmail.png";
-import cv from "../Data/ViduminiDayananda.pdf";
+import git from "../../Pics/github.png";
+import linkedin from "../../Pics/linkedin.png";
+import gmail from "../../Pics/gmail.png";
+import cv from "../../Data/ViduminiDayananda.pdf";
 
 function Home() {
   return (
