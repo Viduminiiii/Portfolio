@@ -8,7 +8,7 @@ import nodejs from "../../Pics/skills/nodejs.png"
 import java from "../../Pics/skills/java.png"
 import python from "../../Pics/skills/python.png"
 import sql from "../../Pics/skills/mysql.png"
-import php from "../../Pics/skills/php.png"
+import express from "../../Pics/skills/expressjs.png"
 import mongodb from "../../Pics/skills/mongodb.png"
 import figma from "../../Pics/skills/figma.png"
 
@@ -58,8 +58,8 @@ function Skills() {
               <p id="id-sql">SQL</p>
             </div>
             <div className="img-container">
-              <img src={php} alt="PHP" className="img"></img>
-              <p id="id-php">PHP</p>
+              <img src={express} alt="ExpressJS" className="img"></img>
+              <p id="id-php">Express JS</p>
             </div>
             <div className="img-container">
               <img src={mongodb} alt="MongoDB" className="img-1"></img>

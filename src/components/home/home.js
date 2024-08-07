@@ -38,7 +38,7 @@ function Home() {
           <h2>Hi, I'm Vidumini</h2>
           <p>
             I am an ambitious undergraduate student pursuing a BEng (Hons)
-            Software Engineering at the University of Westminster, Informatic
+            Software Engineering at the University of Westminster, Informatics
             Institute of Technology (IIT).
           </p>
           <Button variant="contained" className="button">
