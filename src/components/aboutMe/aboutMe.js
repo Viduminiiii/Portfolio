@@ -3,14 +3,15 @@ import "../about/about.css";
 import "../skills/skills.css";
 import About from "../about/about";
 import Skills from "../skills/skills";
+import Education from "../education/education";
 
 function AboutMe() {
   return (
     <div>
       <div className="tab-content">
         <About />
-        <br/>
         <Skills />
+        <Education />
       </div>
     </div>
   );

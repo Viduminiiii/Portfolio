@@ -27,6 +27,7 @@ body, html {
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
+  filter: drop-shadow(3px 3px 3px #ff6969);
   gap: 1rem;
   z-index: 1000; /* Ensure it is above other elements */
 }
